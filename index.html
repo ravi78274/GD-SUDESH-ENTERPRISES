@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GD Sudesh Enterprises - Electrical Accessories Manufacturer</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Barlow+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav id="navbar">
+  <a class="nav-logo" href="#">
+    <div class="logo-img-wrap">
+      <img src="logo.jpg" alt="GD Sudesh Logo" />
+    </div>
+    <div class="logo-text">
+      <span class="logo-name">GD Sudesh</span>
+      <span class="logo-sub">Enterprises</span>
+    </div>
+  </a>
+
+  <ul class="nav-links">
+    <li>
+      <a href="#">Home <span class="arrow">▾</span></a>
+      <div class="dropdown">
+        <a href="#">Catalogue</a>
+        <a href="#">About</a>
+      </div>
+    </li>
+    <li class="active">
+      <a href="#products">Products <span class="arrow">▾</span></a>
+      <div class="dropdown">
+        <div class="has-sub">
+          <a href="#essentials">Essentials</a>
+          <div class="sub-dropdown">
+            <a href="#round-sheet">Round Sheet</a>
+            <a href="#tile-spacer">Tile Spacers</a>
+            <a href="#tile-leveling">Yellow Tile Leveling</a>
+          </div>
+        </div>
+        <div class="has-sub">
+          <a href="#cable-section">Cable Accessories</a>
+          <div class="sub-dropdown">
+            <a href="#cable-clip">Cable Clips</a>
+          </div>
+        </div>
+        <div class="has-sub">
+          <a href="#fasteners">Fasteners</a>
+          <div class="sub-dropdown">
+            <a href="#wall-plug">Wall Plugs</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <a href="#" class="btn-catalogue">↓ Catalogue</a>
+
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══════════ MOBILE MENU ══════════ -->
+<div class="mobile-menu" id="mobileMenu">
+  <a class="mob-link" href="#">Home</a>
+  <div class="mob-group-title" onclick="toggleMobSub(this)">
+    Products <span class="mob-arrow">▾</span>
+  </div>
+  <div class="mob-sub">
+    <a href="#round-sheet"   class="mob-link" style="padding-left:40px;font-size:14px;">Round Sheet</a>
+    <a href="#tile-spacer"   class="mob-link" style="padding-left:40px;font-size:14px;">Tile Spacers</a>
+    <a href="#tile-leveling" class="mob-link" style="padding-left:40px;font-size:14px;">Yellow Tile Leveling</a>
+    <a href="#cable-clip"    class="mob-link" style="padding-left:40px;font-size:14px;">Cable Clips</a>
+    <a href="#wall-plug"     class="mob-link" style="padding-left:40px;font-size:14px;">Wall Plugs</a>
+  </div>
+  <a class="mob-link" href="#contact">Contact</a>
+  <a class="mob-link" href="#" style="color:var(--green);font-weight:600;">↓ Download Catalogue</a>
+</div>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-bg-grid"></div>
+  <div class="hero-accent"></div>
+  <div class="hero-content">
+    <div class="hero-tag animate">Electrical Accessories Supplier</div>
+    <h1 class="animate delay-1">Quality You<br/>Can <span>Trust</span></h1>
+    <p class="animate delay-2">
+      GD Sudesh Enterprises is a trusted supplier of premium electrical accessories — from round sheets and tile spacers to cable clips and wall plugs. Serving residential, commercial, and industrial clients from Yamuna Nagar, Haryana.
+    </p>
+    <div class="hero-cta animate delay-3">
+      <a href="https://wa.me/919999590905" class="btn-primary" target="_blank">💬 WhatsApp Us</a>
+      <a href="#products" class="btn-outline">View Products →</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div></div><div></div><div></div><div></div><div></div>
+  </div>
+</section>
+
+<!-- ══════════ PRODUCTS ══════════ -->
+<section class="products-section" id="products">
+  <div class="section-header">
+    <h2>Our <span>Products</span></h2>
+    <p>Precision-crafted electrical accessories built for lasting performance</p>
+  </div>
+
+  <!-- ── ESSENTIALS ── -->
+  <div class="category-title" id="essentials">Essentials</div>
+  <div class="product-grid">
+
+    <!-- Round Sheet -->
+    <div class="product-card" id="round-sheet">
+      <div class="viewer-wrap dark-bg">
+        <div class="drag-hint">⟳ Drag / Scroll to rotate</div>
+        <div class="viewer360">
+          <img class="prod-img" src="round-sheet.png" alt="Round Sheet" draggable="false" />
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Round Sheet (P.O.P)</h3>
+        <p>Premium POP round fan sheets for a clean, professional ceiling finish. Easy to install with a precise fit for all standard fan mountings.</p>
+        <a href="https://wa.me/919999590905" class="product-link" target="_blank">Get Quote →</a>
+      </div>
+    </div>
+
+    <!-- Tile Spacer -->
+    <div class="product-card" id="tile-spacer">
+      <div class="viewer-wrap light-bg">
+        <div class="drag-hint">⟳ Drag / Scroll to rotate</div>
+        <div class="viewer360" data-dark="false">
+          <img class="prod-img" src="tile-spacer.png" alt="Tile Spacer" draggable="false" />
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Tile Spacers</h3>
+        <p>Achieve flawless tiling precision with our PVC cross tile spacers. Available in 2mm to 10mm sizes for perfectly uniform grout lines every time.</p>
+        <a href="https://wa.me/919999590905" class="product-link" target="_blank">Get Quote →</a>
+      </div>
+    </div>
+
+    <!-- Yellow Tile Leveling -->
+    <div class="product-card" id="tile-leveling">
+      <div class="viewer-wrap light-bg">
+        <div class="drag-hint">⟳ Drag / Scroll to rotate</div>
+        <div class="viewer360" data-dark="false">
+          <img class="prod-img" src="tile-leveling.png" alt="Yellow Tile Leveling System" draggable="false" />
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Yellow Tile Leveling System</h3>
+        <p>Professional 2-part tile leveling system with clip and wedge for perfectly flat, lippage-free tile installations. Reusable wedges, strong clip grip.</p>
+        <a href="https://wa.me/919999590905" class="product-link" target="_blank">Get Quote →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── CABLE ACCESSORIES ── -->
+  <div class="category-title" id="cable-section">Cable <span>Accessories</span></div>
+  <div class="product-grid">
+
+    <!-- Cable Clip -->
+    <div class="product-card" id="cable-clip">
+      <div class="viewer-wrap dark-bg">
+        <div class="drag-hint">⟳ Drag / Scroll to rotate</div>
+        <div class="viewer360">
+          <img class="prod-img" src="cable-clip.png" alt="Cable Clip" draggable="false" />
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Cable Clip</h3>
+        <p>Heavy-duty nail-in cable clips for secure cable management along walls and ceilings. White finish, suitable for all standard cable diameters.</p>
+        <a href="https://wa.me/919999590905" class="product-link" target="_blank">Get Quote →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── FASTENERS ── -->
+  <div class="category-title" id="fasteners">Electrical <span>Fasteners</span></div>
+  <div class="product-grid">
+
+    <!-- Wall Plug -->
+    <div class="product-card" id="wall-plug">
+      <div class="viewer-wrap dark-bg">
+        <div class="drag-hint">⟳ Drag / Scroll to rotate</div>
+        <div class="viewer360">
+          <img class="prod-img" src="wall-plug.png" alt="Wall Plug" draggable="false" />
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Wall Plugs (Rawl Plugs)</h3>
+        <p>Engineered for maximum grip in concrete, brick, and plaster walls. Available in multiple sizes and colors for every fastening requirement.</p>
+        <a href="https://wa.me/919999590905" class="product-link" target="_blank">Get Quote →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════ ABOUT ══════════ -->
+<section class="about-section">
+  <div class="about-text">
+    <div class="section-header">
+      <h2>About <span>GD Sudesh</span></h2>
+    </div>
+    <p>GD Sudesh Enterprises is a trusted supplier of electrical accessories based in Yamuna Nagar, Haryana. We are dedicated to delivering high-quality products that meet stringent safety and performance standards.</p>
+    <p>Our curated product range — round sheets, tile spacers, tile leveling systems, cable clips, and wall plugs — is built to support modern electrical infrastructure across residential, commercial, and industrial applications.</p>
+    <p>Driven by a commitment to quality, reliability, and customer satisfaction, GD Sudesh Enterprises is your dependable partner for all electrical accessory needs.</p>
+    <a href="https://wa.me/919999590905" class="btn-primary" style="margin-top:12px;" target="_blank">💬 Get in Touch</a>
+  </div>
+  <div class="about-visual">
+    <div>🏭</div>
+    <div>⚡</div>
+    <div>🔩</div>
+  </div>
+</section>
+
+<!-- ══════════ WHY US ══════════ -->
+<section class="why-section">
+  <div class="section-header">
+    <h2>Why Choose <span>Us</span></h2>
+    <p>Built on quality, trust, and genuine care for every customer</p>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🏆</div>
+      <h3>Premium Quality</h3>
+      <p>Every product is sourced and verified with high-grade raw materials and strict quality checks before it reaches you.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🤝</div>
+      <h3>Trusted Partner</h3>
+      <p>Years of experience serving electricians, contractors, and businesses across Haryana and beyond.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <h3>Easy to Install</h3>
+      <p>All our products are designed for hassle-free installation, saving time on every job site.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">💬</div>
+      <h3>Responsive Support</h3>
+      <p>Reach us instantly on WhatsApp for orders, queries, or product advice — we're always ready to help.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA BAND ══════════ -->
+<div class="cta-band" id="contact">
+  <h2>Get In Touch With Us</h2>
+  <p>Contact us for pricing, bulk orders, or any product queries</p>
+  <a href="https://wa.me/919999590905" class="btn-dark" target="_blank">💬 WhatsApp Now</a>
+</div>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo-wrap">
+        <div class="footer-logo-box">
+          <img src="logo.jpg" alt="GD Sudesh Enterprises Logo" />
+        </div>
+        <div class="footer-logo-text">
+          <span class="footer-logo-name">GD Sudesh Enterprises</span>
+          <span class="footer-logo-sub">Electrical Accessories</span>
+        </div>
+      </div>
+      <p>A trusted supplier of electrical accessories serving Yamuna Nagar, Haryana and surrounding regions. Quality you can rely on for every project.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="#round-sheet">Round Sheet</a>
+      <a href="#tile-spacer">Tile Spacers</a>
+      <a href="#tile-leveling">Yellow Tile Leveling</a>
+      <a href="#cable-clip">Cable Clips</a>
+      <a href="#wall-plug">Wall Plugs</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Catalogue</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <a href="#">📍 Yamuna Nagar, Haryana, India</a>
+      <a href="https://wa.me/919999590905" target="_blank">📞 +91 99995 90905</a>
+      <a href="https://wa.me/919999590905" target="_blank">💬 WhatsApp Us</a>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919999590905" class="wa-btn" target="_blank" title="Chat on WhatsApp">💬</a>
+
+<script>
+/* ════════════════════════════════════════
+   NAVBAR
+════════════════════════════════════════ */
+const navToggle = document.getElementById('navToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+navToggle.addEventListener('click', () => {
+  navToggle.classList.toggle('open');
+  mobileMenu.classList.toggle('open');
+  document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+});
+mobileMenu.querySelectorAll('a.mob-link').forEach(link => {
+  link.addEventListener('click', () => {
+    navToggle.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    document.body.style.overflow = '';
+  });
+});
+function toggleMobSub(el) {
+  el.classList.toggle('open');
+  const sub = el.nextElementSibling;
+  if (sub && sub.classList.contains('mob-sub')) sub.classList.toggle('open');
+}
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.style.boxShadow = window.scrollY > 50
+    ? '0 2px 30px rgba(0,0,0,.7)'
+    : '0 2px 20px rgba(0,0,0,.4)';
+});
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    if (href === '#') return;
+    const target = document.querySelector(href);
+    if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+  });
+});
+
+/* ════════════════════════════════════════
+   360° PRODUCT IMAGE ROTATOR
+   — drag (mouse / touch) OR scroll wheel
+   — dynamic lighting overlay on canvas
+════════════════════════════════════════ */
+function init360(viewerEl) {
+  const img      = viewerEl.querySelector('.prod-img');
+  const isDark   = viewerEl.dataset.dark !== 'false';   // default dark
+
+  let angle      = 0;
+  let targetAngle= 0;
+  let isDragging = false;
+  let lastX      = 0;
+  let autoAngle  = 0;
+  let autoOn     = true;
+  let resumeTimer= null;
+
+  /* ── Lighting canvas overlay ── */
+  const canvas = document.createElement('canvas');
+  canvas.style.cssText =
+    'position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2;border-radius:inherit;';
+  viewerEl.appendChild(canvas);
+
+  function resizeCanvas() {
+    canvas.width  = viewerEl.offsetWidth  || 300;
+    canvas.height = viewerEl.offsetHeight || 300;
+  }
+  resizeCanvas();
+  new ResizeObserver(resizeCanvas).observe(viewerEl);
+
+  function drawLight(ang) {
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width, H = canvas.height;
+    if (!W || !H) return;
+    ctx.clearRect(0, 0, W, H);
+    const norm = ((ang % 360) + 360) % 360;
+    const lx   = W * (0.18 + Math.sin((norm / 360) * Math.PI * 2) * 0.34 + 0.34);
+    const ly   = H * 0.26;
+
+    /* Specular sheen */
+    const shine = ctx.createRadialGradient(lx, ly, 0, lx, ly, W * 0.58);
+    shine.addColorStop(0,    isDark ? 'rgba(255,255,255,0.14)' : 'rgba(255,255,255,0.26)');
+    shine.addColorStop(0.38, isDark ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.08)');
+    shine.addColorStop(1,    'rgba(255,255,255,0)');
+    ctx.fillStyle = shine;
+    ctx.fillRect(0, 0, W, H);
+
+    /* Edge shadow opposite light */
+    const ex = lx > W / 2 ? 0 : W;
+    const edgeShadow = ctx.createLinearGradient(ex, 0, W - ex, 0);
+    edgeShadow.addColorStop(0,    'rgba(0,0,0,0.30)');
+    edgeShadow.addColorStop(0.42, 'rgba(0,0,0,0.08)');
+    edgeShadow.addColorStop(1,    'rgba(0,0,0,0)');
+    ctx.fillStyle = edgeShadow;
+    ctx.fillRect(0, 0, W, H);
+  }
+
+  function lerp(a, b, t) { return a + (b - a) * t; }
+
+  (function tick() {
+    if (autoOn) { autoAngle += 0.22; targetAngle = autoAngle; }
+    angle = lerp(angle, targetAngle, 0.08);
+
+    const norm   = ((angle % 360) + 360) % 360;
+    const cosA   = Math.cos((norm * Math.PI) / 180);
+    const scaleX = Math.abs(cosA) * 0.36 + 0.64;
+    const flipX  = cosA < 0 ? -1 : 1;
+    const par    = Math.sin((norm * Math.PI) / 180) * 10;
+
+    img.style.transform  = `scaleX(${scaleX * flipX})`;
+    img.style.marginLeft = par + 'px';
+    drawLight(norm);
+    requestAnimationFrame(tick);
+  })();
+
+  /* ── Mouse drag ── */
+  viewerEl.addEventListener('mousedown', e => {
+    isDragging = true; autoOn = false; lastX = e.clientX;
+    viewerEl.style.cursor = 'grabbing';
+    clearTimeout(resumeTimer);
+  });
+  window.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    targetAngle += (e.clientX - lastX) * 1.15;
+    autoAngle = targetAngle; lastX = e.clientX;
+  });
+  window.addEventListener('mouseup', () => {
+    if (!isDragging) return;
+    isDragging = false;
+    viewerEl.style.cursor = 'grab';
+    resumeTimer = setTimeout(() => { autoOn = true; autoAngle = targetAngle; }, 3000);
+  });
+
+  /* ── Touch drag ── */
+  viewerEl.addEventListener('touchstart', e => {
+    e.preventDefault(); isDragging = true; autoOn = false;
+    lastX = e.touches[0].clientX; clearTimeout(resumeTimer);
+  }, { passive: false });
+  viewerEl.addEventListener('touchmove', e => {
+    e.preventDefault();
+    if (!isDragging) return;
+    targetAngle += (e.touches[0].clientX - lastX) * 1.15;
+    autoAngle = targetAngle; lastX = e.touches[0].clientX;
+  }, { passive: false });
+  viewerEl.addEventListener('touchend', () => {
+    isDragging = false;
+    resumeTimer = setTimeout(() => { autoOn = true; autoAngle = targetAngle; }, 3000);
+  });
+
+  /* ── Scroll wheel ── */
+  viewerEl.addEventListener('wheel', e => {
+    e.preventDefault(); autoOn = false; clearTimeout(resumeTimer);
+    targetAngle += (e.deltaY + e.deltaX) * 0.38;
+    autoAngle = targetAngle;
+    resumeTimer = setTimeout(() => { autoOn = true; autoAngle = targetAngle; }, 3000);
+  }, { passive: false });
+}
+
+/* Init when visible */
+const vIO = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (en.isIntersecting && !en.target._init) {
+      en.target._init = true;
+      init360(en.target);
+    }
+  });
+}, { threshold: 0.15 });
+document.querySelectorAll('.viewer360').forEach(el => vIO.observe(el));
+
+/* Card fade-in */
+const cIO = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (en.isIntersecting) {
+      en.target.style.opacity = '1';
+      en.target.style.transform = 'translateY(0)';
+      cIO.unobserve(en.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.product-card, .feature-card').forEach((el, i) => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(28px)';
+  el.style.transition =
+    `opacity .55s ease ${(i%3)*0.1}s, transform .55s ease ${(i%3)*0.1}s, box-shadow .3s, border-color .3s`;
+  cIO.observe(el);
+});
+</script>
+</body>
+</html>
